@@ -60,11 +60,11 @@ public class WebDriverPractice {
         driver.findElement(By.xpath("(//li[@class='list-group-item']//a[@href='/registration_form'])")).click();
 
 
-        driver.findElement(By.name("firstname")).sendKeys("Vjendita");
-        driver.findElement(By.name("lastname")).sendKeys("Himaj");
-        driver.findElement(By.name("username")).sendKeys("Vjenditahimaj");
-        driver.findElement(By.name("email")).sendKeys("vjendita@cybertekschool.com");
-        driver.findElement(By.name("password")).sendKeys("Vjendita123");
+        driver.findElement(By.name("firstname")).sendKeys("Berlinda");
+        driver.findElement(By.name("lastname")).sendKeys("Krasniqi");
+        driver.findElement(By.name("username")).sendKeys("BerlindaK");
+        driver.findElement(By.name("email")).sendKeys("berlinda@cybertekschool.com");
+        driver.findElement(By.name("password")).sendKeys("Berlindak123");
         driver.findElement(By.name("phone")).sendKeys("123-456-7855");
         driver.findElement(By.xpath("//input[@value='female']")).click();
         driver.findElement(By.name("birthday")).sendKeys("11/05/1995");
@@ -89,7 +89,7 @@ public class WebDriverPractice {
 
         driver.get("https://practice-cybertekschool.herokuapp.com/");
         driver.findElement(By.xpath("(//li[@class='list-group-item']//a[@href='/sign_up'])")).click();
-        driver.findElement(By.name("full_name")).sendKeys("Vjendita");
+        driver.findElement(By.name("full_name")).sendKeys("Berlinda");
         driver.findElement(By.name("email")).sendKeys(tempEmail);
         driver.findElement(By.name("wooden_spoon")).click();
 
